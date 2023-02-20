@@ -25,10 +25,14 @@ function minus( b )     { return function( a ) { return a - b; }; };
 function times( b )     { return function( a ) { return a * b; }; };
 function dividedBy( b ) { return function( a ) { return a / b; }; };
 
-console.log("eight divide by three is  "+eight(dividedBy(three(minus(.04)))));       //return 2
+console.log("eight divide by three is  "+eight(dividedBy(three(minus(.66666667)))));       //return 2
+
 console.log("seven times five is "+seven(times(five())));             // must return 35
+
 console.log("four plus nine is "+four(plus(nine())));               //must return 13
+
 console.log("eight minus three is "+eight(minus(three())));       // must return 5
+
 console.log("six divideby two is "+six(dividedBy(two())));      //must return 3
  
   
