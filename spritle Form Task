@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Spritle Form Task
+        </title>
+    </head>
+    <body>
+    <form action="" class="task">
+
+        <h1 >Spritle Form Task</h1>
+
+        <button onclick="#" id="sigin">SIGIN</button>
+        <br><br>
+
+        <label for="name"> NAME</label>
+        <input type="text"placeholder="enter name"required/><br /><br />
+
+        <label for="college name">College Name</label>
+        <input type="text"placeholder="enter the college"/><br /><br />
+        
+        <label for="college code">College Code</label>
+         <input type="number"/>
+        <br /><br />
+
+        <label for="dept">Category</label>
+        <select name="dept"id="dept">
+            <option value="1">Student</option>
+            <option value="2">Master</option>
+            <option value="3">Worker</option><br/>   
+        </select><br />
+        <br />
+
+         <!-- <label for="gender">Gender</label><br />
+        <br />
+        <input type="radio"name="gender"/>Male<input type="radio"name="gender"/>Female
+         <br> -->
+        <button onclick="#">Login</button>
+
+
+    </form>
+
+    <style>
+        *{
+            background:linear-gradient(to left,#132209,#ba1ae2);
+          font-size: 25px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          text-decoration-color: aqua;
+        justify-items: auto;
+        }
+        h1{
+            color: #dbecdd;
+        }
+        label{
+            color: #dbecdd;
+        }
+        input{
+            color: #dbecdd;
+        }
+        select{
+            color: #29c8ce;
+        }
+        button{
+            color: #dbecdd;
+        }
+    #sigin{
+        color: #0ee427;
+    }
+       
+       
+ 
+    </style>
+</body>
+    
+</html>
