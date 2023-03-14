@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+    
         <title>
             Spritle Form Task
         </title>
+        
     </head>
+    
     <body>
+    
     <form action="" class="task">
 
         <h1 >Spritle Form Task</h1>
