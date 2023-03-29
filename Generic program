@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>SPRITTLE PROGRAM</title>
-
+    </head>
         <body>
             <div id="code">
                 <h1>program</h1>
@@ -42,6 +42,6 @@ console.log("six divideby two is "+six(dividedBy(two())));      //must return 3
  
   
 </script>
+
         </body>
-    </head>
 </html>
